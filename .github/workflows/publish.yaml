@@ -26,3 +26,6 @@ jobs:
           file: Nginx.Dockerfile
           push: true
           tags: ${{ vars.DOCKER_USERNAME }}/digital-ocean-terraform
+      - name: Debug
+        run: |
+          pwd

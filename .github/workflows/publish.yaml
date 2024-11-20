@@ -13,6 +13,7 @@ jobs:
             cd ./webpage
             npm ci
             npm run build
+            mv dist ..
       - name: Debug
         run: |
           pwd
